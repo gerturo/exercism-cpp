@@ -6,7 +6,6 @@ namespace nucleotide_count
 {
     map<char, int> count(string strand)
     {
-        map<char, int> counters{{'A', 0}, {'C', 0}, {'G', 0}, {'T', 0}};
         int countA = 0;
         int countC = 0;
         int countG = 0;
